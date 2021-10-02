@@ -90,8 +90,8 @@ Point definitions can also be defined inside the `_pointDefinitions` field of yo
   "_version": "2.0.0",
   "_customData": {
     "_pointDefinitions": [
-	  {
-       "_name": "ZigZagPosition",
+      {
+	"_name": "ZigZagPosition",
         "_points":[
           [0, 0, 0, 0],
           [1, 0, 0, 0.25],
@@ -99,18 +99,18 @@ Point definitions can also be defined inside the `_pointDefinitions` field of yo
           [0, 0, 0, 1]
         ]
       }
-	],
-	"_customEvents": [
-	  {
+    ],
+    "_customEvents": [
+      {
         "_time": 3.0,
         "_type": "AnimateTrack",
         "_data": {
           "_track": "ZigZagTrack",
           "_duration": 1,
           "_position": "ZigZagPosition"
-        }
+      	}
       }
-	]
+    ]
   },
   "_events": [],
   "_notes": [],
